@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AxHorizontalProgressComponent } from './ax-widgets/molequle/ax-horizontal-progress/ax-horizontal-progress.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AxHorizontalProgressComponent
   ],
   imports: [
     BrowserModule,
